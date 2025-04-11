@@ -1,1 +1,12 @@
-<p>certificates works!</p>
+<ul *ngFor="let job of certificates;">
+<li>
+{{ job.certificate }} <br>
+{{ job.year }} <br>
+{{ job.description }} <br>
+</li>
+</ul>
+
+<!--<p>certificates works!</p>
+<p>
+{{certificatesService.accesoCertificates}}
+</p>-->

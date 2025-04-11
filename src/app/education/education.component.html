@@ -1,1 +1,12 @@
-<p>education works!</p>
+<ul *ngFor="let job of education;">
+<li>
+{{ job.startDate }} <i>{{job.location}} </i> <br>
+{{job.school}} <br>
+</li>
+</ul>
+
+<!--<p>education works!</p>
+<p>
+{{educationService.accesoEducation}}
+</p>-->
+
