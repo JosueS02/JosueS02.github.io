@@ -1,0 +1,76 @@
+/* Estilos Generales */
+body {
+  font-family: 'Montserrat', sans-serif; /* Tipo de letra para el cuerpo */
+  background-color: #f4f6f8; /* Color de fondo general */
+  color: #333; /* Color de texto general */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Espacio entre elementos */
+  padding: 30px;
+  max-width: 1200px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centrar el contenido */
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.col-md-6 {
+  flex: 1; /* Ocupa el mismo espacio */
+}
+
+.card {
+  background-color: #fff; /* Color de fondo de las tarjetas */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Sombra suave */
+  padding: 25px;
+  transition: transform 0.2s ease-in-out; /* Transición suave al hacer hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Ligeramente elevar la tarjeta al hacer hover */
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif; /* Tipo de letra para los títulos */
+  color: #2c3e50; /* Color del título */
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #e67e22; /* Línea inferior naranja */
+  padding-bottom: 10px;
+}
+
+/* Estilos específicos para la tarjeta de encabezado */
+.header-card {
+  background-color: #3498db; /* Color de fondo del encabezado (azul) */
+  color: #fff; /* Color del texto del encabezado */
+  text-align: center;
+  padding: 30px;
+}
+
+.header-card h1, .header-card h2 {
+  color: #fff; /* Asegurar que los títulos dentro del encabezado sean blancos */
+  border-bottom: none; /* Quitar la línea inferior del título en el encabezado */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Apilar las tarjetas en pantallas pequeñas */
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .container {
+    padding: 15px;
+  }
+  .card {
+    padding: 20px;
+  }
+}
