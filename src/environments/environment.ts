@@ -1,6 +1,6 @@
 export const environment = {
 
-production: false'
+production: false,
 firebase: {
 
 apiKey: "AIzaSyCCNhbr8JDWZDLCzfWTgoMx9WVv42EfbqY",
@@ -10,4 +10,4 @@ apiKey: "AIzaSyCCNhbr8JDWZDLCzfWTgoMx9WVv42EfbqY",
   messagingSenderId: "592889568746",
   appId: "1:592889568746:web:da01af268b0ce6263e6693"
 }
-}:
+}
