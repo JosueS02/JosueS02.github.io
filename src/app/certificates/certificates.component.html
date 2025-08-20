@@ -3,6 +3,7 @@
 {{ job.certificate }} <br>
 {{ job.year }} <br>
 {{ job.description }} <br>
+<a *ngIf="job.link" [href]="job.link" target="_blank" rel="noopener">Ver certificado</a>
 </li>
 </ul>
 

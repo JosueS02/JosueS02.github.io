@@ -48,10 +48,13 @@ h2 {
 
 /* Estilos específicos para la tarjeta de encabezado */
 .header-card {
-  background-color: #3498db; /* Color de fondo del encabezado (azul) */
-  color: #fff; /* Color del texto del encabezado */
+  background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+  color: #fff;
   text-align: center;
-  padding: 30px;
+  padding: 60px 20px; /* Aumenté el padding vertical de 40px a 60px */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.35);
+  min-height: 220px; /* Opcional: altura mínima fija */
 }
 
 .header-card h1, .header-card h2 {
