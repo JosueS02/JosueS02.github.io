@@ -57,6 +57,7 @@ h2 {
   min-height: 220px; /* Opcional: altura mínima fija */
 }
 
+
 .header-card h1, .header-card h2 {
   color: #fff; /* Asegurar que los títulos dentro del encabezado sean blancos */
   border-bottom: none; /* Quitar la línea inferior del título en el encabezado */
